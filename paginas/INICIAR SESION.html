@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>iniciar secion </title>
+</head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=decice-width, inicial-scale=1.0">
+	<title></title>
+<style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #92AAB1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor{
+    background-color: #B3C2F3;
+    width: 400px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align: center;
+    color: #1e3a5f;
+    margin-bottom: 20px;
+}
+
+label{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea{
+    resize: vertical;
+}
+
+.opciones{
+    margin-top: 8px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center; /* o flex-start */
+    align-items: center;
+    gap: 10px;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"]{
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+	.boton a{
+			display: inline-block;
+			background: #1e3a5f;
+			color: white;
+			text-decoration: none;
+			padding: 10px;
+			border-radius:10px;
+			font-size: 18px;
+			font-size: 12px;
+			font-weight: bold;
+			transition:3s;
+		
+		}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+    background-color: #1565c0;
+}
+</style>
+</head>
+<body>
+<div class="contenedor">
+	<h1>INICIAR SESION</h1>
+
+<form>
+
+<label for="nombre">USUARIO</label>
+<input type="text" id="nombre" placeholder="USUARIO">
+
+
+
+<label for="password"> CONTRSEÑA</label>
+<input type="password" id="password">
+</label>
+<div class="botones">
+<input type="submit" value="ACEPTAR">
+
+
+<div class="botones">
+<input type="button" value="CANCELAR">
+
+<div class="boton">
+				<a href="javascript:history.back()"> SALIR </a>
+
+
+
+
+</div>
+</form>
+
+
+<body>
+</body>
+</html>
